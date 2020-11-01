@@ -1,14 +1,14 @@
 {
-  "name": "src",
+  "name": "elasticsearch_search_engine_poc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Elasticsearch POC app",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "loaddata": "node data.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dakshraj Sharma",
+  "license": "BSD-3-Clause" ,
   "dependencies": {
     "body-parser": "^1.19.0",
     "elasticsearch": "^16.7.1",
